@@ -36,5 +36,25 @@ Multi line Comments
 `fmt.Println`
 > Automatically inserts a newline at the end
 
+### Constants
+`const`
+
+### Variables
+`var`
+> Can declare variables individually 
+```{go}
+var foo = 42
+var bar = 1337
+```
+> Can declare them as a group
+```{go}
+var(
+    foo = 42
+    bar = 1337
+```
+> Can also declare multiple variable on a single line
+```{go}
+var foo, bar = 42, 1337
+```
 
 :
